@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de dados</title>
+    <link rel="icon" type="image" href="./imgs/jsicone.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imgs/jsicone.png" alt="JS Tutor">Tutor
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./operadores.html">Operadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./variáveis.html">Variáveis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./estruturas.html">Estruturas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./tiposdedados.html">Tipos de dados</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>Tipos de dados em JavaScript</h1>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col">
+                <h2>O que são os tipos de dados?</h2>
+                <p>
+                    São usados para construir outras estruturas de dados. Sempre que possível, são feitas comparações com outras línguas.
+                </p>
+            </div>
+            <div class="col">
+                <h2>Por que aprender?</h2>
+                <p>
+                    Conhecer os tipos de dados em JavaScript ajuda o desenvolvedor entender melhor, por exemplo, o processo de criação de variáveis.
+                </p>
+            </div><br>
+            <h1>Vamos dar uma olhada neles?</h1>
+            <p>O JS tem 7 tipos de dados diferentes, são eles:</p>
+            <ul>
+                <li>Tipo Boolean:</li>
+            </ul>
+            <p>Boolean representa uma entidade lógica e pode ter dois valores: true e false. or exemplo, em JavaScript, condicionais booleanas são usadas para decidir quais trechos do código serão executados ou repetidas. Exemplo:</p>
+
+            <img class="mx-auto d-block img" src="./imgs/booleanex.png"><br>
+
+            <ul>
+                <li>Tipo Null:</li>
+            </ul>
+            <p>O tipo Null possui apenas um valor: null. Null representa um valor nulo ou "vazio</p>
+
+            <ul>
+            <li>Tipo Undefined:</li>
+            </ul>
+            <p>Uma variável que não recebeu um valor tem o valor undefined.</p>
+
+            <ul>
+                <li>Tipo Number:</li>
+                </ul>
+                <p>É capaz de armazenar números de ponto flutuante positivos entre 2^-1074  e 2^1024, bem como números de ponto flutuante negativos entre -(2^-1074) e -(2^1024), mas só pode armazenar com segurança inteiros no intervalo -(2^53 − 1)  para 2^53 − 1.</p>
+
+
+                <ul>
+                    <li>Tipo BigInt:</li>
+                    </ul>
+                    <p>Pode representar inteiros com precisão arbitrária. Com BigInts, você pode armazenar e operar com segurança em grandes números inteiros, mesmo além do limite de números inteiros seguros. Exemplos:</p>
+
+                    <img class="mx-auto d-block img" src="./imgs/numberebigint.png"><br>
+    
+               <ul>
+                <li>Tipo String:</li>
+               </ul>
+               <p>É usado para representar dados textuais. É um conjunto de "elementos" de valores inteiros sem sinal de 16 bits. Cada elemento na String ocupa uma posição na String. O primeiro elemento está no índice 0, o próximo no índice 1 e assim por diante. O comprimento de uma String é o número de elementos nela.</p>
+
+               <ul>
+                <li>Tipo Symbol:</li>
+               </ul>
+               <p>É um valor primitivo único e imutável e pode ser usado como a chave de uma propriedade Object.</p>
+
+               <h3>Ainda não conseguiu pegar? Que tal uma vídeo-aula?</h3>
+                <div class="col-md-6 mx-auto">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pvZPaUVPIGk?si=6yfWqm-ClD3jK4Tx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+
+               <h1>E agora? Já dá pra praticar!</h1>
+               <a class="btn btn-lg mx-auto d-block btn-outline-dark" href="./exercícios.html" role="button">Vamos nessa!</a>

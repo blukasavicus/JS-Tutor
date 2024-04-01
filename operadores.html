@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <link rel="icon" type="image" href="./imgs/jsicone.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imgs/jsicone.png" alt="JS Tutor">Tutor
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./operadores.html">Operadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./variáveis.html">Variáveis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./estruturas.html">Estruturas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./tiposdedados.html">Tipos de dados</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>Operadores em JavaScript</h1>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col">
+                <h2>O que são operadores?</h2>
+                <p>
+                    São ferramentas que permitem realizar uma variedade de operações e manipulações de dados.
+                </p>
+            </div>
+            <div class="col">
+                <h2>Por que aprender?</h2>
+                <p>
+                    Dominar os operadores aritméticos, de atribuição, de comparação, lógicos, de concatenação, ternários
+                    e de acesso a propriedades é essencial para escrever um código eficiente e expressivo.
+                </p>
+            </div>
+            <h1>Vamos dar uma olhada neles?</h1>
+            <p>O JS possui vários tipos de operadores, sendo eles:</p>
+            <ul>
+                <li>Operadores Aritméticos</li>
+            </ul>
+            <p>Os operadores aritméticos são usados para realizar operações matemáticas básicas, como adição, subtração,
+                multiplicação e divisão. Além disso, temos o operador de resto (%), exponenciação (**) e
+                incremento/decremento (++/--), que podem ser úteis em várias situações.</p>
+
+            <div class="col-md-6 mx-auto">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Operador</th>
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">+</th>
+                            <td>Adição</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">-</th>
+                            <td>Subtração</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">*</th>
+                            <td>Multiplicação</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">/</th>
+                            <td>Divisão</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">**</th>
+                            <td>Exponencial</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">%</th>
+                            <td>Módulo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">++</th>
+                            <td>Incrementar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">--</th>
+                            <td>Decrementar</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <ul>
+                <li>Operadores de atribuição</li>
+            </ul>
+            <p>Os operadores de atribuição são usados para atribuir valores a variáveis. O operador de atribuição básico
+                é o "=", mas também existem operadores combinados, como "+=", "-=", "*=", "/=", entre outros, que
+                permitem atribuir e operar ao mesmo tempo.</p>
+
+
+            <div class="col-md-6 mx-auto">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Operador</th>
+                            <th scope="col">Equivale a </th>
+                            <th scope="col">Utilização</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">=</th>
+                            <td>x = y</td>
+                            <td>x = y</td>
+
+
+                        </tr>
+                        <tr>
+                            <th scope="row">+=</th>
+                            <td>x = x + y</td>
+                            <td>x += y</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">*=</th>
+                            <td>x = x * y</td>
+                            <td>x *= y</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">/=</th>
+                            <td>x = x / y</td>
+                            <td>x /= y</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">%=</th>
+                            <td>x = x % y</td>
+                            <td>x %= y</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+            <ul>
+                <li>Operadores de comparação</li>
+            </ul>
+            <p>Os operadores de comparação são usados para comparar valores e retornar um resultado booleano (verdadeiro
+                ou falso). Exemplos de operadores de comparação incluem "==", "!=", "===", "!==", ">", "<", ">=" e "<="
+                    . Eles são usados principalmente em instruções condicionais e loops.</p>
+
+                    <div class="col-md-6 mx-auto">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Operador</th>
+                                    <th scope="col">Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">==</th>
+                                    <td>Igual a</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">===</th>
+                                    <td>Mesmo valor e tipo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">!=</th>
+                                    <td>Diferente</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">!==</th>
+                                    <td>Diferente em valor e tipo</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">
+                                        << /th>
+                                    <td>Menor que</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">></th>
+                                    <td>Maior que</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <=< /th>
+                                    <td>Menor ou igual a</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">>=</th>
+                                    <td>Maior ou igual a</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <ul>
+                        <li>Operadores lógicos</li>
+                    </ul>
+                    <p>Os operadores lógicos são usados para combinar ou inverter valores booleanos. Os operadores "&&"
+                        (E lógico), "||" (OU lógico) e "!" (NÃO lógico) são usados para avaliar condições complexas e
+                        tomar decisões com base nos resultados.</p>
+
+                    <div class="col-md-6 mx-auto">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Operador</th>
+                                    <th scope="col">Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">&&</th>
+                                    <td>'e' lógico</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">||</th>
+                                    <td>'ou' lógico</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">!</th>
+                                    <td>'não' lógico</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <ul>
+                        <li>Operadores Ternários</li>
+                    </ul>
+                    <p>O operador ternário é uma forma concisa de expressar uma instrução condicional em JavaScript. Ele
+                        usa a sintaxe "condição ? valor1 : valor2" e retorna valor1 se a condição for verdadeira e
+                        valor2 se for falsa. É útil para simplificar estruturas condicionais simples.</p><br>
+
+                    <h3>Ainda não conseguiu pegar? Que tal umas vídeo-aulas?</h3>
+                    <div class="col-md-6 mx-auto">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/hZG9ODUdxHo?si=Qxvqu0NhGBjD1qmf"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/BP63NhITvao?si=NiYVTjYd04468duR"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div><br>
+                    <br>
+                    
